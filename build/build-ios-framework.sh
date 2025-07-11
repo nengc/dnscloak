@@ -83,6 +83,8 @@ mkdir -p $GOPATH
 # clean up previous binary
 rm -fr Dnscryptproxy.framework/
 
+echo "123456"
+
 # fetch & init gomobile
 go get golang.org/x/tools/go/packages
 go get golang.org/x/mobile/cmd/gomobile
