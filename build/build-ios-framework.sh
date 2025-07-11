@@ -53,6 +53,8 @@ cd "$PLATFORMPATH"
 
 REPOROOT=$(pwd)
 
+echo "$PLATFORMPATH"
+
 export GOPATH=$REPOROOT/.build
 export PATH=$GOPATH/bin:$PATH
 
